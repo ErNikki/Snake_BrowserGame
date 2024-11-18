@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'myFont'; /*a name to be used later*/
+    src: url('RUBBBB__.TTF'); /*URL to font*/
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'myFont';
+}
+header {
+    height: 15%;
+    align: center;
+    color: #0f0;
+}
+section {
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photos {    
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.section {
+    width: 32%;
+    object-fit: fill;
+    position: relative;
+    align-content: center;
+    display: inline-block;
+}
+.mode_button {
+    position: absolute;
+    background-color: #fff;
+    color: #0f0;
+    padding: 5%;
+    border-radius: 15px;
+    font-size: 40px;
+    opacity: 0.87;
+    align-items: center;
+    margin-top: 20px;
+    width: 85%;
+}
+.mode_button:hover {
+    transform: scale(1.02,1.02);
+}
+
+.section:hover {
+    opacity: 0.9;
+    transform: scale(1.02,1.02);
+}
+img {
+    width: 100%;
+    object-fit: contain;
+    display: inline-block;
+}
+footer {
+    text-align: center;
+}

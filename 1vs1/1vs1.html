@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Snake 2.0</title>
+  <script src="lib/jquery-3.3.1.min.js"></script>
+  <script src="lib/jquery-ui.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init();">
+
+  <div id="dialog" hidden>
+      <p style="color:#c90000;" id="gameOver"> </p>
+      <p>Final Score <a id="finalScore"></a> </p>
+
+  </div>
+
+  <aside style="float: left;">
+      <p id="Title">SNAKE 2.0</p>
+      <p id="score">SCORE: 0</p>
+      <p id="scoreIA">SCOREIA: 0</p>
+      <p id="timer"></p>
+      <br><br>
+      <!-- dovrei inserire il timer!!
+      <div class="hallOfFame">
+          <p>TOP 10:</p>
+          <ul class="hallOfFame">
+          </ul>
+      </div>-->
+  </aside>
+  <div id="gameArea">
+      <canvas id="ground"></canvas>
+  </div>
+
+</body>
+</html>

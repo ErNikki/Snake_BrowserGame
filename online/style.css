@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'myFont'; /*a name to be used later*/
+    src: url('fonts/RUBBBB__.TTF'); /*URL to font*/
+}
+@font-face {
+    font-family: 'font2'; /*a name to be used later*/
+    src: url('fonts/FORCED SQUARE.ttf'); /*URL to font*/
+} 
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+#timer{
+    position:absolute;
+    right:120px;
+    top:0px;
+    font-size: 100px;
+    margin: 10px, 10px;
+    padding: 10px;
+    color: #48fb47; 
+}
+
+#gameArea{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+#ground{
+    border: 10px;
+    border-style: solid;
+    border-color: yellow;
+    -webkit-box-shadow: -10px -5px 105px -28px rgba(204,255,0,0.93);
+    -moz-box-shadow: -10px -5px 105px -28px rgba(204,255,0,0.93);
+    box-shadow: -10px -5px 105px -28px rgba(204,255,0,0.93);
+}
+
+.score {
+    font-size: 20px;
+    margin: 20px;
+    padding: 0;
+    color:  #2646ea;
+}
+
+#Title {
+    font-size: 60px;
+    text-align:left;
+    margin: 0;
+    padding: 0;
+    color: #ff3399 ;
+}
+
+body {
+    background-color: #000000;
+    color: #c90000;
+    font-family: 'myFont';
+}
+
+#dialog {
+    padding: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'font2';
+}
+
+#dialog > p {
+    font-size: 23px;
+}
+
+#finalScore {
+    color: #c90000;
+}
+
+div.hallOfFame {
+    position: absolute;
+    bottom: 0;
+    font-family: 'font2';
+    left: 10px;
+    font-size: 30px;
+    color: yellow;
+}

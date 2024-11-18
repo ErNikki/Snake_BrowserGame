@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'myFont'; /*a name to be used later*/
+    src: url('fonts/RUBBBB__.TTF'); /*URL to font*/
+}
+@font-face {
+    font-family: 'font2'; /*a name to be used later*/
+    src: url('fonts/FORCED SQUARE.ttf'); /*URL to font*/
+} 
+
+#gameArea{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+#ground{
+    border: 10px;
+    border-style: solid;
+    border-color:  #ccff00;
+    -webkit-box-shadow: -10px -5px 105px -28px rgba(204,255,0,0.93);
+    -moz-box-shadow: -10px -5px 105px -28px rgba(204,255,0,0.93);
+    box-shadow: -10px -5px 105px -28px rgba(204,255,0,0.93);
+}
+
+#score {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color: #2646ea;
+}
+
+#Title {
+    font-size: 60px;
+    text-align:left;
+    margin: 0;
+    padding: 0;
+    color: #ff3399;
+    /*text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #00ffff 0px 0px 20px, #00FFFF 0px 0px 30px, #00FFFF 0px 0px 40px, #40E0D0 0px 0px 50px, #0000CD 0px 0px 75px;
+}*/
+}
+
+body {
+    background-color: #000000;
+    color: #c90000;
+    font-family: 'myFont';
+}
+
+#dialog {
+    font-family: 'font2';
+    padding: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #ccff00;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#dialog > p {
+    font-size: 23px;
+}
+
+#finalScore {
+    color: #c90000;
+}
+
+div.hallOfFame {
+    position: absolute;
+    bottom: 0;
+    font-family: 'font2';
+    left: 10px;
+    font-size: 40px;
+    color: yellow;
+}
+ul.hallOfFame{
+    font-size: 30px;
+    color: #48fb47;
+    list-style:square;
+}
